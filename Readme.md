@@ -27,11 +27,11 @@ If the backend is enabled, then any malicious HTTP client can send a request for
 
 **Severity:**
 In my expert opinion, this vulnerability have **8.1 HIGH** base score as per NIST (NATIONAL VULNERABILITY DATABASE).
-[Refernce:](https://nvd.nist.gov/vuln/detail/CVE-2018-18820)
+![Refernce:](https://nvd.nist.gov/vuln/detail/CVE-2018-18820)
 
 **Recommendations:**
 A new version of Icecast. It is a security release and we recommend to update all Icecast installations of versions below 2.4.4 to it.
-[Refernce:](https://www.openwall.com/lists/oss-security/2018/11/01/3)
+![Refernce:](https://www.openwall.com/lists/oss-security/2018/11/01/3)
 
 **Proof of Concept:**
 This is where you show the steps you took. Show the client how you exploited the software services. Please include screenshots!
@@ -39,7 +39,7 @@ After i gain access to the CEO’s computer, been provided access to the network
 
 1. I Perform a service and version scan using Nmap to determine which services are up and running
 
-![Nmap version scan](./Images/Figure-1.png)
+![Figure-1](./Images/Figure-1.png)
 
 1. We see that the Icecast service is running as per above Figure-1 shows, by Searching for Icecast exploits We found which exploits availbale for us and we are used it by attacking that service as per below Figure-2 shows.
 
