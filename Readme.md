@@ -39,7 +39,7 @@ After i gain access to the CEO’s computer, been provided access to the network
 
 1. I Perform a service and version scan using Nmap to determine which services are up and running
 
-![Figure-1](./Images/Figure-1.png)
+![Figure-1](./Images/Figure-1.PNG)
 
 1. We see that the Icecast service is running as per above Figure-1 shows, by Searching for Icecast exploits We found which exploits availbale for us and we are used it by attacking that service as per below Figure-2 shows.
 
