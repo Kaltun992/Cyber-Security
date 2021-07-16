@@ -37,21 +37,21 @@ A new version of Icecast. It is a security release and we recommend to update al
 This is where you show the steps you took. Show the client how you exploited the software services. Please include screenshots!
 After i gain access to the CEO’s computer, been provided access to the network and am getting ping responses from the CEO’s workstation.
 
-1. We Perform a service and version scan using Nmap to determine which services are up and running
+1 . We Perform a service and version scan using Nmap to determine which services are up and running
 
 ![Figure-1](./Images/Figure-1.PNG)
 
-1. We see that the Icecast service is running as per above Figure-1 shows, by Searching for Icecast exploits We found which exploits availbale for us and we are used it by attacking that service as per below Figure-2 shows.
+1 . We see that the Icecast service is running as per above Figure-1 shows, by Searching for Icecast exploits We found which exploits availbale for us and we are used it by attacking that service as per below Figure-2 shows.
 
 ![Figure-2](./Images/Figure-2.PNG)
 
-1. As per below Figure-3 and Figure-4 demonstrating how the company data is exposed, it can be downloaded by unauthorized users
+1 . As per below Figure-3 and Figure-4 demonstrating how the company data is exposed, it can be downloaded by unauthorized users
 
 ![Figure-3](./Images/Figure-3.PNG)
 
 ![Figure-4](./Images/Figure-4.PNG)
 
-1. We run a another scan to find all the other vulnerabilities, and we documented it below:
+1 . We run a another scan to find all the other vulnerabilities, and we documented it below:
 
 - the as CEO's workstation has multiple possible vulnerabilities as per below Figure-5 shows.
 
