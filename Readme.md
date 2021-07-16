@@ -47,9 +47,7 @@ After i gain access to the CEO’s computer, been provided access to the network
 
 1 . As per below Figure-3 and Figure-4 demonstrating how the company data is exposed, it can be downloaded by unauthorized users
 
-![Figure-3](./Images/Figure-3.PNG)
-
-![Figure-4](./Images/Figure-4.PNG)
+![Figure-3](./Images/Figure-3.PNG) ![Figure-4](./Images/Figure-4.PNG)
 
 1 . We run a another scan to find all the other vulnerabilities, and we documented it below:
 
